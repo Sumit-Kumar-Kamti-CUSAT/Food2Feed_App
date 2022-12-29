@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/bg1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="3dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:text="Forget Password"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Enter Email"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailFrg"
+        android:padding="5dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frgBtn"
+        android:layout_gravity="center"
+        android:text="forget"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginTxtFrg"
+        android:clickable="true"
+        android:textSize="20sp"
+        android:layout_marginEnd="20dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/teal_700"
+        android:text="Login"/>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "309844909742",
+    "project_id": "food2feed-9e578",
+    "storage_bucket": "food2feed-9e578.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309844909742:android:3abdb71f5f8d0ede78173f",
+        "android_client_info": {
+          "package_name": "com.rsn.food2feedo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309844909742-gorojrc834mbcjsi8k1nh9ncj6iuecco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFKug8CdFNpc8da1DqYZITyTdQJ3E9XqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309844909742-gorojrc834mbcjsi8k1nh9ncj6iuecco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

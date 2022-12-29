@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food"
+    tools:context=".LoginType">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="199dp"
+        android:layout_height="133dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:src="@drawable/applogo" />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_logo"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="45dp"
+        android:text="Don't waste               let's someone taste."
+        android:textAlignment="center"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/who"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_slogan"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="121dp"
+
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="123dp"
+        android:clickable="true"
+        android:text="Who You Are"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/donor"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/who"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_design"
+        android:padding="3dp"
+        android:text="Donor"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/donor"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons"
+        android:padding="3dp"
+        android:text="Admin"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="115dp"
+        android:text="About Us"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+</RelativeLayout>

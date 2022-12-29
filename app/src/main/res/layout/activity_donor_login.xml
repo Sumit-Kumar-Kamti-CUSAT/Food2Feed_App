@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:clickable="true"
+    tools:context=".DonorLogin"
+    tools:layout_editor_absoluteX="-3dp"
+    tools:layout_editor_absoluteY="-12dp">
+
+    <TextView
+        android:id="@+id/Login_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="92dp"
+
+        android:text="Login"
+        android:textColor="#1E21E9"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@id/Login_board"
+        app:srcCompat="@drawable/logocircle" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="54dp"
+
+
+        android:layout_marginBottom="15dp"
+        android:text="UserName"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/donor_username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginStart="54dp"
+
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/input_design"
+        android:drawableLeft="@drawable/ic_person"
+        android:ems="10"
+        android:hint="Enter Username"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#0C0C0C" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/donor_username"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="8dp"
+
+        android:text="PassWord"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/donor_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="14dp"
+
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/input_design"
+        android:drawableLeft="@drawable/ic_security"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/forget_donor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/donor_password"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:text="Forgot Password"
+        android:textColor="#3F6CF4"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn_donor_login"
+        android:layout_width="273dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/forget_donor"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_design"
+        android:text="Login"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_donor_login"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="24dp"
+        android:text="Don't have an account?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/new_user_donor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_donor_login"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"
+        android:layout_toEndOf="@id/textView6"
+        android:clickable="true"
+        android:text="Create new one"
+        android:textColor="#304FEF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/inst_icon"
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/new_user_donor"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@id/twitter_icon"
+        android:clickable="true"
+        app:srcCompat="@drawable/pic2" />
+
+    <ImageView
+        android:id="@+id/twitter_icon"
+        android:layout_width="47dp"
+        android:layout_height="41dp"
+        android:layout_below="@id/textView6"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@id/fb_icon"
+        app:srcCompat="@drawable/pic5" />
+
+    <ImageView
+        android:id="@+id/fb_icon"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/textView6"
+        android:layout_marginStart="80dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/pic7" />
+
+
+
+</RelativeLayout>
